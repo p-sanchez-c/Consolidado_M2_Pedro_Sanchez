@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Pedro Sanchez</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#inicio">PS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre Mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="sobre-mi" class="container section-padding">
+            <h2>Sobre Mí</h2>
+            <div class="sobre-mi-contenido">
+                <p>¡Hola! Soy Pedro, un técnico en conectividad y redes con una pasión por crear experiencias digitales únicas. Aunque estoy empezando en este mundo, mi entusiasmo y ganas de aprender me impulsan a mejorar cada día.</p>
+            </div>
+        </section>
+        <div class="imagen-centrada">
+            <img src="Assets/IMG/img.jpg" alt="imag mia" width="300" height="300">
+        </div>
+<br>
+        <section id="habilidades" class="container section-padding">
+            <h2>Mis Habilidades</h2>
+            <div class="habilidades-grid">
+                <div class="habilidad-card">
+                    <h3>Configuración y Administración de Redes</h3>
+                </div>
+                <div class="habilidad-card">
+                    <h3>Cableado de Red</h3>
+                </div>
+                <div class="habilidad-card">
+                    <h3>Configuración y Administración de Servidores</h3>
+                </div>
+                <div class="habilidad-card">
+                    <h3>Seguridad en Redes</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos" class="container section-padding">
+            <h2>Mis Proyectos</h2>
+            <div class="proyectos-grid">
+                <div class="proyecto-card">
+                    <h3>Red Empresarial</h3>
+                    <p>Diseño e implementación de una red completa para una oficina de 25 empleados, incluyendo configuración de equipos y seguridad.</p>
+                    <a href="proyecto1.html" class="btn btn-dark">Ver proyecto</a>
+                </div>
+                <div class="proyecto-card">
+                    <h3>Migración de Red</h3>
+                    <p>Migración de una red antigua a una moderna.</p>
+                    <a href="proyecto2.html" class="btn btn-dark">Ver proyecto</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="container section-padding">
+            <h2>Contácto</h2>
+            <form id="formulario-contacto">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white py-3">
+        <div class="container text-center">
+            <p>&copy; 2024 Pedro Sanchez. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="Assets/JS/script.js"></script>
+</body>
+</html>
+
